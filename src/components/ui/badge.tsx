@@ -8,10 +8,20 @@ const badgeVariants = cva(
   {
     variants: {
       variant: {
-        default: "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
-        secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
+        default: "border-transparent bg-primary text-primary-foreground shadow",
+        secondary: "border-transparent bg-secondary text-secondary-foreground",
+        destructive: "border-transparent bg-destructive text-destructive-foreground",
         outline: "text-foreground",
+        // Status variants
+        critical: "border-transparent bg-status-critical/15 text-status-critical",
+        acknowledged: "border-transparent bg-status-acknowledged/15 text-status-acknowledged",
+        inProgress: "border-transparent bg-status-in-progress/15 text-status-in-progress",
+        resolved: "border-transparent bg-status-resolved/15 text-status-resolved",
+        // Gamification variants
+        xp: "border-transparent gradient-gamification text-accent-foreground shadow-sm",
+        level: "border-transparent bg-primary/10 text-primary font-bold",
+        streak: "border-transparent bg-streak-fire/15 text-streak-fire",
+        badge: "border-2 border-xp-gold/30 bg-xp-gold/10 text-xp-gold",
       },
     },
     defaultVariants: {
