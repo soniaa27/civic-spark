@@ -57,9 +57,9 @@ export function HomeView({ onNavigate }: HomeViewProps) {
               >
                 🏙️
               </motion.span>
-              <h1 className="text-xl font-bold text-foreground">CivicHero</h1>
+              <h1 className="text-xl font-bold text-foreground">Civilians</h1>
             </div>
-            <p className="text-xs text-muted-foreground">Make your city better</p>
+            <p className="text-xs text-muted-foreground">Namma Bengaluru</p>
           </div>
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="iconSm" className="relative">
@@ -91,7 +91,7 @@ export function HomeView({ onNavigate }: HomeViewProps) {
                 <span className="text-white font-semibold text-sm">Daily Challenge</span>
                 <Badge className="bg-white/20 text-white text-[10px] border-white/30">+50 XP</Badge>
               </div>
-              <p className="text-white/80 text-xs mt-0.5">Report 3 issues in your neighborhood</p>
+              <p className="text-white/80 text-xs mt-0.5">Report 3 issues in your locality</p>
             </div>
             <div className="text-right">
               <div className="text-white font-bold text-lg">1/3</div>

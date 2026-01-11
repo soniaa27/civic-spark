@@ -27,7 +27,7 @@ export function LeaderboardView() {
             <Trophy className="w-8 h-8" />
             <div>
               <h1 className="text-2xl font-bold">Leaderboard</h1>
-              <p className="text-primary-foreground/80 text-sm">Top civic heroes this week</p>
+              <p className="text-primary-foreground/80 text-sm">Top civic heroes of Bengaluru this week</p>
             </div>
           </div>
 

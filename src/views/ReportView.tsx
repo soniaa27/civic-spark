@@ -159,8 +159,8 @@ export function ReportView({ onBack }: ReportViewProps) {
                       <MapPin className="w-6 h-6 text-primary-foreground" />
                     </div>
                     <div className="flex-1">
-                      <p className="font-medium text-sm">Current Location</p>
-                      <p className="text-xs text-muted-foreground">123 Main Street, Downtown</p>
+                    <p className="font-medium text-sm">Current Location</p>
+                    <p className="text-xs text-muted-foreground">Bengaluru, Karnataka</p>
                     </div>
                     <Button variant="outline" size="sm">
                       Change
