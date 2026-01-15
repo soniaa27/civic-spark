@@ -175,32 +175,6 @@ Trust Score =
   + Resolution Bonus
 ```
 
-## 🌐 Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Import project in Vercel
-3. Deploy automatically on push
-
-**Configuration**: Already configured via `vercel.json`
-
-### Netlify
-
-1. Push your code to GitHub
-2. Import project in Netlify
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-
-**Configuration**: Already configured via `netlify.toml`
-
-### Other Platforms
-
-The built app can be deployed to any static hosting service:
-- AWS S3 + CloudFront
-- GitHub Pages
-- Cloudflare Pages
-- Firebase Hosting
 
 ## 🔧 Configuration
 
@@ -257,7 +231,7 @@ This project is licensed under the MIT License.
 
 For issues, questions, or contributions:
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
+- Contact: [soniaa.sharma.in@gmail.com]
 
 ---
 
